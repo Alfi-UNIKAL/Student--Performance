@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 # --- Load model ---
 with open("model_graduation.pkl", "rb") as file:
